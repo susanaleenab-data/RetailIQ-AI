@@ -1,0 +1,29 @@
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local databases
+*.db
+
+# Large raw and processed datasets
+data/*.csv
+
+# Local environment and secrets
+.env
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Original retail dataset
+data/*.xlsx
+
+# Local backup
+app_backup.py
+
+# Experimental calibrated model
+models/calibrated_churn_model.pkl
